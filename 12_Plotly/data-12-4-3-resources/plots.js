@@ -31,7 +31,7 @@ function optionChanged(newSample) {
       var PANEL = d3.select("#sample-metadata");
   
       PANEL.html("");
-      PANEL.append("h6").text("ID:", result.id);
+      PANEL.append("h6").text(result.id);
       PANEL.append("h6").text(result.location);
     });
 }
