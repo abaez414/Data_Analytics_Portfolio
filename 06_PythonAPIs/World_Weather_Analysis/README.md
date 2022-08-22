@@ -1,0 +1,3 @@
+# World Weather Analysis
+
+For this challenge we needed to collect and analyze city data and weather data worldwide to determine which hotel would be ideal to take a vacation. We used Numpy to generate 2000 random latitude and longitude coordinates, citypy to determine the nearest city to the latitude/longitude pairs, OpenWeatherMap API to request the current weather at each location, and then parsed the JSON data to collect the maximum temperature, humidity, cloudiness, and windspeed. We then used that data to create scatter plots of the temperature, humidity, cloudiness, and windspeed, as well as heatmaps of those metrics as well.
